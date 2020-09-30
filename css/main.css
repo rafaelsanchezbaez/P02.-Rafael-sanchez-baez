@@ -1,0 +1,200 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    float: left;
+    padding-top: 10px;
+    padding-left: 2em;
+}
+.socialmedia{
+    float: right;
+    padding-top: 10px;
+    padding-right: 2em;
+}
+.principal{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+}
+.menu>a{
+    color: teal;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 3em;
+    
+}
+
+.menu>a:hover{
+    color: tomato;
+    font-size: large;
+    font-weight: bold;
+}
+
+.socialmedia>a{
+    
+    margin-left: .5em;
+}
+.socialmedia>a>img:hover{
+    width: 26px;
+    height: 26px;
+}
+
+.text-header{
+    background-image: url(../img/board.jpg);
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+
+
+}
+.text-header>h1{
+    margin: 0;
+    padding: 0;
+    padding-top: 100px;
+    padding-left: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.text-header>p{
+    margin: 0;
+    padding: 0;
+    padding-left: 5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#acerca{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 740px;
+}
+.img-acerca{
+    margin-top: 3em;
+    /* max-width: 400px; */
+    margin-left: 2em;
+    border-radius: 5px;
+}
+.aleft{
+    float: left;
+    width: 48%;
+}
+
+.aright{
+    float: right;
+    width: 48%;
+    padding-top: 2em;
+}
+.atitle{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    
+}
+.apar{
+    text-align: justify;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: medium;
+    padding-right: 3em;
+}
+#portafolio{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 740px;
+    
+}
+#contacto{
+    background-color: whitesmoke;
+    width: 100%;
+    height: 740px;
+}
+article{
+    float: left;
+    width: 22%;
+    height: 280px;
+    margin-top: .5em;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+.ptitle{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: xx-large;
+    margin: 0;
+    
+}
+.img-portafolio{
+    border-radius: 5px;
+    max-width: 180px;
+    
+}
+ .ppar{
+ 
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 100;
+ }
+ #contacto{
+    width: 100%;
+    height: 740px;
+     }
+.contacto{
+    height: 50%;
+    width: 50%;
+    float: right;
+
+}
+.titu{
+    text-align: center;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 600;
+    font-size: xx-large;
+    margin: 0;
+
+}
+.inf{
+    float: left;
+    padding-left: 5em;
+    height: 30%;
+    width: 30%;
+    text-align: justify;
+    font-size: large;
+
+}
+.con{
+    padding: 10px;
+    margin-bottom: 16px;
+    border: solid 2px;
+    padding-right: 60%;
+    
+    
+}
+.conmes{
+    padding: 60px;
+    border:solid 2px;
+    margin-bottom: 1em;
+    font-family:'Nunito Sans', sans-serif ;
+
+    
+}
+.bot{
+    padding:20px;
+    border:solid 2px;
+    float: center;
+   float: center;
+   
+}
+.lab{
+   margin-right: 2em;
+   font-size: large;
+         
+}
+form{
+    
+    margin: solid 2px;
+}
